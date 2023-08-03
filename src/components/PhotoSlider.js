@@ -20,7 +20,7 @@ function PhotoSlider({ currentSlide }) {
         linkTo={"/projects/"}
         text={"ВЗГЛЯНУТЬ"}
         buttonColor={"#fff"}
-        textColor={"#333333"}
+        textColor={"#333"}
       />
     </div>
   );

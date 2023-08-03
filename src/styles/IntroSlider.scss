@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  margin-bottom: 140px;
 
   .Description {
     height: 70%;
@@ -49,6 +50,7 @@
           border: 1px solid #f2f2f2;
           background-color: #fff;
           cursor: pointer;
+          transition: all 0.2s linear;
 
           &:hover {
             background-color: #f9f9f9;
@@ -101,6 +103,17 @@
       height: 100%;
       object-fit: cover;
       overflow: hidden;
+      @keyframes changeSlide {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 100%;
+        }
+      }
+      animation-name: changeSlide;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
     }
 
     a {

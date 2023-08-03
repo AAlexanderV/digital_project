@@ -7,6 +7,14 @@ function Description({ currentSlide, setCurrentSlide }) {
     { projectName: "OFFICE", day: "15", month: "09" },
   ];
 
+  function prevSlide() {
+    currentSlide <= 0 ? setCurrentSlide(sliderData.length - 1) : setCurrentSlide(currentSlide - 1);
+  }
+
+  function nextSlide() {
+    currentSlide >= sliderData.length - 1 ? setCurrentSlide(0) : setCurrentSlide(currentSlide + 1);
+  }
+
   return (
     <div className="Description">
       <div className="project_name">
@@ -16,11 +24,17 @@ function Description({ currentSlide, setCurrentSlide }) {
 
       <div className="slider_buttons">
         <div className="buttons_container">
-          <button className="prev_button">
+          <button
+            className="prev_button"
+            onClick={prevSlide}
+          >
             <ArrowSvg color={"#333333"} />
           </button>
 
-          <button className="next_button">
+          <button
+            className="next_button"
+            onClick={nextSlide}
+          >
             <ArrowSvg color={"#333333"} />
           </button>
         </div>
