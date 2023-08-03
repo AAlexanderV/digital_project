@@ -37,7 +37,7 @@
         margin-right: 60px;
         color: black;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 2px;
 
         @keyframes navHover {
@@ -55,7 +55,7 @@
           height: 1px;
           background-color: #000;
           position: absolute;
-          left: 0;
+          right: 0;
           top: -3px;
           animation-name: navHover;
           animation-duration: 0.4s;
