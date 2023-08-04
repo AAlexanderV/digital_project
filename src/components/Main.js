@@ -3,6 +3,7 @@ import Header from "./Header";
 import IntroSlider from "./IntroSlider";
 import About from "./About";
 import Goals from "./Goals";
+import OurProjects from "./OurProjects";
 
 function Main() {
   return (
@@ -12,7 +13,7 @@ function Main() {
         <IntroSlider />
         <About />
         <Goals />
-        {/* <OurProjects /> */}
+        <OurProjects />
         {/* <FeedbackForm /> */}
       </div>
       {/* <Contacts /> */}
