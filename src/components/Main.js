@@ -2,6 +2,7 @@ import "../styles/Main.scss";
 import Header from "./Header";
 import IntroSlider from "./IntroSlider";
 import About from "./About";
+import Goals from "./Goals";
 
 function Main() {
   return (
@@ -10,7 +11,7 @@ function Main() {
         <Header />
         <IntroSlider />
         <About />
-        {/* <Goals /> */}
+        <Goals />
         {/* <OurProjects /> */}
         {/* <FeedbackForm /> */}
       </div>
