@@ -4,6 +4,7 @@ import IntroSlider from "./IntroSlider";
 import About from "./About";
 import Goals from "./Goals";
 import OurProjects from "./OurProjects";
+import FeedbackForm from "./FeedbackForm";
 
 function Main() {
   return (
@@ -14,7 +15,7 @@ function Main() {
         <About />
         <Goals />
         <OurProjects />
-        {/* <FeedbackForm /> */}
+        <FeedbackForm />
       </div>
       {/* <Contacts /> */}
     </div>
