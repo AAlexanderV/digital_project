@@ -1,0 +1,116 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+
+  .company_details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 60px;
+    color: #fff;
+
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      font-size: 14px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .footer_logo {
+      width: 145px;
+      height: 94px;
+    }
+
+    .information {
+      display: flex;
+      flex-direction: column;
+
+      .NavBar {
+        nav {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 180px;
+
+          .NavLink {
+            text-transform: capitalize;
+            transition: all 0.2s linear;
+
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+
+    .contacts {
+      display: flex;
+      flex-direction: column;
+
+      .contacts_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 180px;
+        .contact_item {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          max-width: 255px;
+
+          .icon {
+            margin-right: 15px;
+          }
+
+          .text {
+            p {
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+
+    .social {
+      .icons_container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+
+        svg {
+          margin-right: 40px;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    border-top: 1px solid #ffffff25;
+
+    p {
+      color: #c8c8c8;
+      opacity: 0.5;
+      font-weight: 300;
+      font-size: 12px;
+    }
+  }
+}

@@ -22,6 +22,10 @@
       flex-direction: row;
       align-items: center;
 
+      &:first-child .description p {
+        max-width: 300px;
+      }
+
       .number {
         font-size: 200px;
         font-weight: 900;

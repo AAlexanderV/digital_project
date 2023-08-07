@@ -2,10 +2,11 @@ import NavLink from "./NavLink";
 
 function NavBar() {
   const navMap = [
-    { name: "ГЛАВНАЯ", path: "/" },
-    { name: "ГАЛЕРЕЯ", path: "/gallery/" },
-    { name: "ПРОЕКТЫ", path: "/projects/" },
-    { name: "КОНТАКТЫ", path: "/contacts/" },
+    { name: "главная", path: "/" },
+    { name: "галерея", path: "/gallery/" },
+    { name: "проекты", path: "/projects/" },
+    { name: "сертификаты", path: "/certificates/" },
+    { name: "контакты", path: "/contacts/" },
   ];
   return (
     <div className="NavBar">

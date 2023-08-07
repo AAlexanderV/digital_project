@@ -5,6 +5,7 @@ import About from "./About";
 import Goals from "./Goals";
 import OurProjects from "./OurProjects";
 import FeedbackForm from "./FeedbackForm";
+import Footer from "./Footer";
 
 function Main() {
   return (
@@ -17,7 +18,7 @@ function Main() {
         <OurProjects />
         <FeedbackForm />
       </div>
-      {/* <Contacts /> */}
+      <Footer />
     </div>
   );
 }

@@ -1,11 +1,11 @@
 import "../styles/Header.scss";
 import NavBar from "./NavBar";
-import HeaderLogo from "./HeaderLogo";
+import HeaderLogo from "./Logo";
 
 function Header() {
   return (
     <div className="Header">
-      <HeaderLogo />
+      <HeaderLogo svgColor={"#333"} />
       <NavBar />
     </div>
   );
