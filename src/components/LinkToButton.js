@@ -9,7 +9,7 @@ function LinkToButton({ linkTo, text, buttonColor, textColor }) {
       style={{ backgroundColor: buttonColor }}
       className="LinkToButton"
     >
-      <p style={{ color: textColor }}>{text}</p>
+      <p style={{ color: textColor, marginRight: "15px" }}>{text}</p>
       <ArrowSvg color={textColor} />
     </Link>
   );

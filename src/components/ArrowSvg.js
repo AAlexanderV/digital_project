@@ -3,7 +3,7 @@ function ArrowSvg({ color }) {
     <svg
       width="18"
       height="9"
-      style={{ marginLeft: "15px" }}
+      // style={{ marginLeft: "15px" }}
       viewBox="0 0 18 9"
       fill="none"
     >

@@ -35,15 +35,11 @@ function FeedbackForm() {
     const form = e.target;
     const formData = new FormData(form);
 
-    // formData to be sent if needed:
-    // fetch('/___/', { method: form.method, body: formData });
-
     const formJson = Object.fromEntries(formData.entries());
     console.log("Data from the client: ", formJson);
   }
 
   return (
-    // <div className="FeedbackForm">
     <form
       className="FeedbackForm"
       method="post"
@@ -152,11 +148,10 @@ function FeedbackForm() {
 
       <div className="submit_button_container">
         <button type="submit">
-          ОТПРАВИТЬ <ArrowSvg color="#fff" />
+          <span>ОТПРАВИТЬ</span> <ArrowSvg color="#fff" />
         </button>
       </div>
     </form>
-    // </div>
   );
 }
 

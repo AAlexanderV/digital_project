@@ -158,6 +158,10 @@
       cursor: pointer;
       transition: all 0.5s linear;
 
+      span {
+        margin-right: 15px;
+      }
+
       &:hover {
         opacity: 0.8;
       }
